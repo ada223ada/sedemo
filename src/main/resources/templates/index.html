@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="/home.css"/>
+    <title>这是一个测试页面</title>
+</head>
+<body>
+    <form id="iform" th:action="@{/api/se/eval?}" th:method="get" >
+
+        <p>表达式:  <input type="submit" value="执行"/> </p>
+        <input style="width:300px;height: 200px ;padding-top: -130px" type="text" name="express" />
+
+    </form>
+
+</body>
+</html>
